@@ -1,10 +1,3 @@
-//
-//  SnapQRUITestsLaunchTests.swift
-//  SnapQRUITests
-//
-//  Created by Jiří Jedlička on 26.06.2025.
-//
-
 import XCTest
 
 final class SnapQRUITestsLaunchTests: XCTestCase {
