@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		28D9AAC32E0DCC9B0019D410 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28D9AAAC2E0DCC990019D410 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28D9AAB32E0DCC990019D410;
+			remoteInfo = SnapQR;
+		};
+		28D9AACD2E0DCC9B0019D410 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28D9AAAC2E0DCC990019D410 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28D9AAB32E0DCC990019D410;
+			remoteInfo = SnapQR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28D9AAB42E0DCC990019D410 /* SnapQR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapQR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28D9AAC22E0DCC9B0019D410 /* SnapQRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapQRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28D9AACC2E0DCC9B0019D410 /* SnapQRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapQRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		28D9AAB62E0DCC990019D410 /* SnapQR */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SnapQR;
+			sourceTree = "<group>";
+		};
+		28D9AAC52E0DCC9B0019D410 /* SnapQRTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SnapQRTests;
+			sourceTree = "<group>";
+		};
+		28D9AACF2E0DCC9B0019D410 /* SnapQRUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SnapQRUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28D9AAB12E0DCC990019D410 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28D9AABF2E0DCC9B0019D410 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28D9AAC92E0DCC9B0019D410 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28D9AAAB2E0DCC990019D410 = {
+			isa = PBXGroup;
+			children = (
+				28D9AAB62E0DCC990019D410 /* SnapQR */,
+				28D9AAC52E0DCC9B0019D410 /* SnapQRTests */,
+				28D9AACF2E0DCC9B0019D410 /* SnapQRUITests */,
+				28D9AAB52E0DCC990019D410 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28D9AAB52E0DCC990019D410 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28D9AAB42E0DCC990019D410 /* SnapQR.app */,
+				28D9AAC22E0DCC9B0019D410 /* SnapQRTests.xctest */,
+				28D9AACC2E0DCC9B0019D410 /* SnapQRUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28D9AAB32E0DCC990019D410 /* SnapQR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28D9AAD62E0DCC9B0019D410 /* Build configuration list for PBXNativeTarget "SnapQR" */;
+			buildPhases = (
+				28D9AAB02E0DCC990019D410 /* Sources */,
+				28D9AAB12E0DCC990019D410 /* Frameworks */,
+				28D9AAB22E0DCC990019D410 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				28D9AAB62E0DCC990019D410 /* SnapQR */,
+			);
+			name = SnapQR;
+			packageProductDependencies = (
+			);
+			productName = SnapQR;
+			productReference = 28D9AAB42E0DCC990019D410 /* SnapQR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28D9AAC12E0DCC9B0019D410 /* SnapQRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28D9AAD92E0DCC9B0019D410 /* Build configuration list for PBXNativeTarget "SnapQRTests" */;
+			buildPhases = (
+				28D9AABE2E0DCC9B0019D410 /* Sources */,
+				28D9AABF2E0DCC9B0019D410 /* Frameworks */,
+				28D9AAC02E0DCC9B0019D410 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28D9AAC42E0DCC9B0019D410 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				28D9AAC52E0DCC9B0019D410 /* SnapQRTests */,
+			);
+			name = SnapQRTests;
+			packageProductDependencies = (
+			);
+			productName = SnapQRTests;
+			productReference = 28D9AAC22E0DCC9B0019D410 /* SnapQRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28D9AACB2E0DCC9B0019D410 /* SnapQRUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28D9AADC2E0DCC9B0019D410 /* Build configuration list for PBXNativeTarget "SnapQRUITests" */;
+			buildPhases = (
+				28D9AAC82E0DCC9B0019D410 /* Sources */,
+				28D9AAC92E0DCC9B0019D410 /* Frameworks */,
+				28D9AACA2E0DCC9B0019D410 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28D9AACE2E0DCC9B0019D410 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				28D9AACF2E0DCC9B0019D410 /* SnapQRUITests */,
+			);
+			name = SnapQRUITests;
+			packageProductDependencies = (
+			);
+			productName = SnapQRUITests;
+			productReference = 28D9AACC2E0DCC9B0019D410 /* SnapQRUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28D9AAAC2E0DCC990019D410 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					28D9AAB32E0DCC990019D410 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					28D9AAC12E0DCC9B0019D410 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 28D9AAB32E0DCC990019D410;
+					};
+					28D9AACB2E0DCC9B0019D410 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 28D9AAB32E0DCC990019D410;
+					};
+				};
+			};
+			buildConfigurationList = 28D9AAAF2E0DCC990019D410 /* Build configuration list for PBXProject "SnapQR" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28D9AAAB2E0DCC990019D410;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 28D9AAB52E0DCC990019D410 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28D9AAB32E0DCC990019D410 /* SnapQR */,
+				28D9AAC12E0DCC9B0019D410 /* SnapQRTests */,
+				28D9AACB2E0DCC9B0019D410 /* SnapQRUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28D9AAB22E0DCC990019D410 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28D9AAC02E0DCC9B0019D410 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28D9AACA2E0DCC9B0019D410 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28D9AAB02E0DCC990019D410 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28D9AABE2E0DCC9B0019D410 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28D9AAC82E0DCC9B0019D410 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28D9AAC42E0DCC9B0019D410 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28D9AAB32E0DCC990019D410 /* SnapQR */;
+			targetProxy = 28D9AAC32E0DCC9B0019D410 /* PBXContainerItemProxy */;
+		};
+		28D9AACE2E0DCC9B0019D410 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28D9AAB32E0DCC990019D410 /* SnapQR */;
+			targetProxy = 28D9AACD2E0DCC9B0019D410 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28D9AAD42E0DCC9B0019D410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28D9AAD52E0DCC9B0019D410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		28D9AAD72E0DCC9B0019D410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SnapQR/SnapQR.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jirikrystofjedlicka.SnapQR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		28D9AAD82E0DCC9B0019D410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SnapQR/SnapQR.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jirikrystofjedlicka.SnapQR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		28D9AADA2E0DCC9B0019D410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jirikrystofjedlicka.SnapQRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapQR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SnapQR";
+			};
+			name = Debug;
+		};
+		28D9AADB2E0DCC9B0019D410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jirikrystofjedlicka.SnapQRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapQR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SnapQR";
+			};
+			name = Release;
+		};
+		28D9AADD2E0DCC9B0019D410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jirikrystofjedlicka.SnapQRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SnapQR;
+			};
+			name = Debug;
+		};
+		28D9AADE2E0DCC9B0019D410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jirikrystofjedlicka.SnapQRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SnapQR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28D9AAAF2E0DCC990019D410 /* Build configuration list for PBXProject "SnapQR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28D9AAD42E0DCC9B0019D410 /* Debug */,
+				28D9AAD52E0DCC9B0019D410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28D9AAD62E0DCC9B0019D410 /* Build configuration list for PBXNativeTarget "SnapQR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28D9AAD72E0DCC9B0019D410 /* Debug */,
+				28D9AAD82E0DCC9B0019D410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28D9AAD92E0DCC9B0019D410 /* Build configuration list for PBXNativeTarget "SnapQRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28D9AADA2E0DCC9B0019D410 /* Debug */,
+				28D9AADB2E0DCC9B0019D410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28D9AADC2E0DCC9B0019D410 /* Build configuration list for PBXNativeTarget "SnapQRUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28D9AADD2E0DCC9B0019D410 /* Debug */,
+				28D9AADE2E0DCC9B0019D410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28D9AAAC2E0DCC990019D410 /* Project object */;
+}
